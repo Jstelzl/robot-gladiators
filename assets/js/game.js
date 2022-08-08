@@ -145,17 +145,6 @@ var shop = function() {
     case "upgrade":
       playerInfo.upgradeAttack();
       break;
-      if (playerInfo.money >= 7) {
-        window.alert("Refilling player's health by 20 for 7 dollars.");
-
-        // increase health and decrease money
-        playerInfo.health = playerInfo.health + 20;
-        playerInfo.money = playerInfo.money - 7;
-    }
-    else {
-        window.alert("You don't have enough money!");
-    }
-      break;
     case 'UPGRADE':
     case 'upgrade':
       if (playerInfo.money >= 7) {
